@@ -49,14 +49,14 @@
 
 // 5-misol
 
-// let arr = [3,3,1,2,3,4,5]
+// let arr = [3,3,3,1,2,3,4,5]
 // let min = 0;
 
 // function findminarr(arr){
 //    for (let i=1; i<arr.length; i++){
 //     if(arr[i]<arr[min]){
 //         min = i
-//     }
+//     // }
 //    }
 
 //     return min;
@@ -151,7 +151,103 @@
 
 // 13-misol
  
-const  str= "salom salom salom"
-function reversestr(str){
+// const  str= "salom salom salom"
+// function reversestr(str){
+ 
+// let res  = str.split('')
+// return res.reverse().join('')
+// }
+// console.log(reversestr(str));
+
+
+
+// // 14-misol
+// let arr = [ 1,2,4,5,6]
+// function py(arr){
+//     let newarr=[]
+//     arr.forEach(function(value){
+// return newarr.push(value*2)
+//     })
+//     return newarr
+// }
+// console.log(py(arr));
+
+
+
+// 15-misol
+// const str = 'salom'
+// function reversestrsym(str){
+   
+
+
+// let arr = str.split('')
+// let first= arr[0]
+// let last = arr[arr.length-1]
+// arr[0]=last
+// arr[arr.length-1]= first
+// return arr.join('')
+// }console.log(reversestrsym(str));
+
+// 16-misol
+// let arr= [ 1,2,3,4,5,6]
+// function  juftlaryigindisi(arr){
+//     let sum=0;
+//  arr.forEach(function(value){
+//     if(value%2==0){
+//          sum +=value
+//     }
+//  })
+//  return sum;
+
+// }
+
+// console.log(juftlaryigindisi(arr));
+
+
+// 17-misol
+
+// const string = 'Salom bolalar'
+// function toUpperCasestring(string){
+//     return string.toUpperCase()
+// }
+// console.log(toUpperCasestring(string));
+
+// 18-misol
+// const str='salom'
+// function sortirovkastr(str){
+//     let res=str.split('')
+//     return res.sort().join('')
+// }
+// console.log(sortirovkastr(str));
+
+
+// 19-misol
+
+// const str = 'salom salom salom'
+
+// function bigFirststr(str){
+
+//     let arr = str.split(' ').map(function(value){
+//         return value[0].toUpperCase()+value.slice(1)
+
+//     })
+//     return arr.join(' ')
     
-}
+// }console.log(bigFirststr(str));
+
+
+
+// 20-misol
+
+// let arr =[ 1,2,3,4,5,6,6,7,8,9,11,22,33,444,,56]
+
+// function newArr(arr){
+//     let res=[]
+//     arr.forEach(function(value){
+//         if(value%2!=1){
+//             res.push(value)
+//         }
+//     })
+//     return res
+// }
+// console.log(newArr(arr));
